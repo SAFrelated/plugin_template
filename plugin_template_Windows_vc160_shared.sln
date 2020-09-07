@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plugin_template", "SoundEnginePlugin\plugin_template_Windows_vc160_shared.vcxproj", "{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94} = {A508E2A3-5D51-BC0C-E020-A067BF2BFB94}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plugin_templateFX", "SoundEnginePlugin\plugin_template_Windows_vc160_static.vcxproj", "{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Profile_EnableAsserts|Win32 = Profile_EnableAsserts|Win32
+		Profile_EnableAsserts|x64 = Profile_EnableAsserts|x64
+		Profile|Win32 = Profile|Win32
+		Profile|x64 = Profile|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Debug|Win32.Build.0 = Debug|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Debug|x64.ActiveCfg = Debug|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Debug|x64.Build.0 = Debug|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile_EnableAsserts|Win32.ActiveCfg = Profile_EnableAsserts|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile_EnableAsserts|Win32.Build.0 = Profile_EnableAsserts|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile_EnableAsserts|x64.ActiveCfg = Profile_EnableAsserts|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile_EnableAsserts|x64.Build.0 = Profile_EnableAsserts|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile|Win32.ActiveCfg = Profile|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile|Win32.Build.0 = Profile|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile|x64.ActiveCfg = Profile|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Profile|x64.Build.0 = Profile|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Release|Win32.ActiveCfg = Release|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Release|Win32.Build.0 = Release|Win32
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Release|x64.ActiveCfg = Release|x64
+		{57B2BCCB-BF8B-AD41-09FB-4880BAF0062B}.Release|x64.Build.0 = Release|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Debug|Win32.ActiveCfg = Debug(StaticCRT)|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Debug|Win32.Build.0 = Debug(StaticCRT)|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Debug|x64.ActiveCfg = Debug(StaticCRT)|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Debug|x64.Build.0 = Debug(StaticCRT)|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile_EnableAsserts|Win32.ActiveCfg = Profile(StaticCRT)_EnableAsserts|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile_EnableAsserts|Win32.Build.0 = Profile(StaticCRT)_EnableAsserts|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile_EnableAsserts|x64.ActiveCfg = Profile(StaticCRT)_EnableAsserts|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile_EnableAsserts|x64.Build.0 = Profile(StaticCRT)_EnableAsserts|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile|Win32.ActiveCfg = Profile(StaticCRT)|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile|Win32.Build.0 = Profile(StaticCRT)|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile|x64.ActiveCfg = Profile(StaticCRT)|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Profile|x64.Build.0 = Profile(StaticCRT)|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Release|Win32.ActiveCfg = Release(StaticCRT)|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Release|Win32.Build.0 = Release(StaticCRT)|Win32
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Release|x64.ActiveCfg = Release(StaticCRT)|x64
+		{A508E2A3-5D51-BC0C-E020-A067BF2BFB94}.Release|x64.Build.0 = Release(StaticCRT)|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
